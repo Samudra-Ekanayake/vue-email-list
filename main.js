@@ -14,7 +14,7 @@ createApp({
 
     },
     mounted() {
-        axios.get('https://flynn.boolean.careers/exercises/api/random/boolean')
+        axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
             .then(function (response) {
                 const result = response.data;
             });
